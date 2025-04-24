@@ -9,7 +9,7 @@ This tool detects if your clipboard text is in the wrong keyboard layout (e.g., 
 <br>
 
 ## 🔧 Requirements
-- Python 3.7+
+- Python 3.7+ with tkinter option
 - pip (Python package manager)
 - venv (recommended for isolation)
 - Internet connection (first run only, for dependency installation)
