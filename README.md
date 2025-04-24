@@ -52,7 +52,7 @@ cd py-clipboard-lang-shifter\clipboard_lang_shifter
 1. Copy text (or select text in any app).
 2. Press:
     - Ctrl+R → Fixes clipboard text.
-    - Ctrl+Alt+R → Selects all, fixes, and pastes back.
+    - Ctrl+Alt+R → Cuts selected, fixes, and pastes back.
 3. Done! The text is now corrected.
 
 <br>
