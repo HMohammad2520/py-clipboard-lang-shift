@@ -6,6 +6,8 @@ This tool detects if your clipboard text is in the wrong keyboard layout (e.g., 
 
 #### 😢 Only For Windows Users !
 
+<br>
+
 ## 🔧 Requirements
 - Python 3.7+
 - pip (Python package manager)
