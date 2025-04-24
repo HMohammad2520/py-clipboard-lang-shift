@@ -73,18 +73,13 @@ def fix_clipboard():
     pyperclip.copy(fixed)
     notify("Clipboard fixed")
 
-def no_keys_pressed():
-    return len(keyboard._pressed_events) == 0
-
 def wait_no_keypress(timeout):
     start_time = time.time()
     while time.time() - start_time < timeout:
-        if not no_keys_pressed():
-            time.sleep(0.2)
-        else:
-            # All keys released, perform the action
-            keyboard.press_and_release('alt+shift')
+        if len(keyboard._pressed_events) == 0:
             break
+
+        time.sleep(0.2)
     
 def shortcut_simple_pressed():
     fix_clipboard()
@@ -92,9 +87,6 @@ def shortcut_simple_pressed():
     keyboard.press_and_release('alt+shift')
 
 def shortcut_full_pressed():
-    wait_no_keypress(3)
-    keyboard.press_and_release('ctrl+a'); time.sleep(0.01)
-
     wait_no_keypress(3)
     keyboard.press_and_release('ctrl+x'); time.sleep(0.01)
     fix_clipboard()
