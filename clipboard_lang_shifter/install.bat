@@ -1,6 +1,12 @@
 @echo off
 setlocal
 
+:: Check for admin rights, relaunch if missing
+NET FILE >NUL 2>&1 || (
+    PowerShell -Command "Start-Process '%~dpnx0' -Verb RunAs"
+    EXIT /B
+)
+
 :: Set paths
 set TASK_NAME=ClipboardLangShifter
 set SCRIPT_DIR=%~dp0
