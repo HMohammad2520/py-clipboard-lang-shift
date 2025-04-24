@@ -26,7 +26,7 @@ cd py-clipboard-lang-shifter\clipboard_lang_shifter
 ```
 
 ### 2. Download Install
-- Download a release and start `clipboard_lang_shifter\install.bat`
+- Download a [release]([releases](https://github.com/HMohammad2520/py-clipboard-lang-shift/releases)) and start `clipboard_lang_shifter\install.bat`
 
 <br>
 
