@@ -4,6 +4,8 @@
 
 This tool detects if your clipboard text is in the wrong keyboard layout (e.g., Persian typed in English or vice versa) and converts it instantly.
 
+#### 😢 Only For Windows Users !
+
 ## 🔧 Requirements
 - Python 3.7+
 - pip (Python package manager)
