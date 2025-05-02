@@ -192,7 +192,7 @@ def create_icon():
         Item('Edit Layout', lambda icon, item: threading.Thread(target=edit_layout_gui, daemon=True).start()),
         Item('Quit', lambda icon, item: icon.stop())
     )
-    return Icon("LayoutFixer", image, "Layout Fixer", menu)
+    return Icon("Lang Shifter", image, "Lang Shifter", menu)
 
 # ------------------ Main ------------------
 
