@@ -63,7 +63,7 @@ def convert_text(text):
 # ------------------ Notifications ------------------
 
 def notify(msg):
-    notification.notify(title='Layout Fixer', message=msg, timeout=2)
+    notification.notify(title='Lang Shifter', message=msg, timeout=2)
 
 # ------------------ Clipboard ------------------
 
